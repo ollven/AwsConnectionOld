@@ -34,7 +34,7 @@ project {
             regionName = "eu-west-1"
             credentialsType = static {
                 accessKeyId = "AKIA5JH2VERVJFGDHSDZ"
-                secretAccessKey = "credentialsJSON:5eb86222-6fe6-4757-99f0-d5b683d9dc2f"
+                secretAccessKey = "credentialsJSON:52b237fa-b22d-4061-8d6f-25c901c529d4"
                 stsEndpoint = "https://sts.eu-west-1.amazonaws.com"
             }
             allowInSubProjects = true
