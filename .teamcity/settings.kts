@@ -29,6 +29,18 @@ project {
 
     features {
         awsConnection {
+            id = "AmazonWebServicesAws1"
+            name = "Amazon Web Services (AWS) (1)"
+            regionName = "eu-west-1"
+            credentialsType = iamRole {
+                roleArn = "arn:aws:iam::913206223978:role/olga_sventukh_for_iam_commection"
+                sessionName = "TC"
+                awsConnectionId = "AmazonWebServicesAws_5"
+                stsEndpoint = "https://sts.eu-west-1.amazonaws.com"
+            }
+            allowInBuilds = false
+        }
+        awsConnection {
             id = "AmazonWebServicesAws_5"
             name = "Amazon Web Services (AWS)"
             regionName = "eu-west-1"
