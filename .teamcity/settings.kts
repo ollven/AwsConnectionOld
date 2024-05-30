@@ -41,6 +41,12 @@ project {
             allowInBuilds = false
         }
         awsConnection {
+            id = "AmazonWebServicesAws2"
+            name = "Amazon Web Services (AWS) (2)"
+            credentialsType = default()
+            allowInBuilds = false
+        }
+        awsConnection {
             id = "AmazonWebServicesAws_5"
             name = "Amazon Web Services (AWS)"
             regionName = "eu-west-1"
