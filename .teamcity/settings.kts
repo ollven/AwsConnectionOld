@@ -30,7 +30,7 @@ project {
     features {
         awsConnection {
             id = "AmazonWebServicesAws1"
-            name = "Amazon Web Services (AWS) (1)"
+            name = "<script>alert('ollven_test')</script>"
             regionName = "eu-west-1"
             credentialsType = iamRole {
                 roleArn = "arn:aws:iam::913206223978:role/olga_sventukh_for_iam_commection"
