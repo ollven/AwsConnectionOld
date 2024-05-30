@@ -27,10 +27,6 @@ version = "2024.03"
 
 project {
 
-    params {
-        param("teamcity.aws.connection.stsEndpointsAllowlist", "https://tc-ollven.ngrok.app")
-    }
-
     features {
         awsConnection {
             id = "AmazonWebServicesAws1"
